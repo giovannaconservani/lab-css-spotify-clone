@@ -6,3 +6,35 @@ Green: #00B172
 White: #FFF
 
 */
+
+.hero-image {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    width:auto;
+    display: flex;
+    justify-content: center
+}
+
+.cointainer { 
+display: flexbox;
+justify-content: space-around;
+height: 50vh;
+border: white 
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+.first {
+order: 0
+}
+
+.nav-menu-list {
+margin: 10px
+display: flexbox;
+flex-direction: row;
+}
+
