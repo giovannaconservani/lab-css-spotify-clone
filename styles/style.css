@@ -6,35 +6,163 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.hero-image {
-    background-image: url(../images/landing.jpg);
+/* HEADER */
+  .cointainer {
+    width: 100vw;
+    height: 6vw;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .logo-spotify {
+    float: left;
+    width: 16vw;
+    padding-left: 3vw;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-around;
+    margin-right: 70px;
+  }
+  .nav-bar li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+  }
+  .nav-bar a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .hero-image {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200vh;
-    width:auto;
-    display: flex;
-    justify-content: center
-}
-
-.cointainer { 
-display: flexbox;
-justify-content: space-around;
-height: 50vh;
-border: white 
-}
-
-.logo {
-    height: 50px;
     width: auto;
-}
-.first {
-order: 0
-}
+    height: 60vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-.nav-menu-list {
-margin: 10px
-display: flexbox;
-flex-direction: row;
-}
-
+  .music-everyone {
+    padding-top: 22vw;
+    margin: 0;
+    font-size: 7vw;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .paragraph-intro {
+    font-size: 2vw;
+    color: #fff;
+    margin: 0;
+  }
+  
+/* MAIN*/
+.on-spotify {
+    margin: 5vw;
+    padding: 1vw;
+  }
+  
+  .on-spotify h2 {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2vw;
+  }
+  
+  .on-spotify hr {
+    border-top: solid 4px #00b172;
+    width: 26vw;
+    border-radius: 2px;
+    margin-top: 2px;
+  }
+  
+  .icons-music {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 4vw;
+  }
+  
+  .icons-music img {
+    width: 9vw;
+    height: auto;
+  }
+  .icons-music h3 {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #00b172;
+  }
+  
+  .icons-music p {
+    text-align: center justify;
+    font-size: 1.8vw;
+    padding: 4vw;
+    padding-top: 0;
+  }
+  
+  /*GRREN SECTION APP*/
+  .green-app {
+    margin: 1vw;
+    background-color: #00b172;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .text-app {
+    width: 28vw;
+    margin-bottom: 0;
+  }
+  .text-app h2 {
+    font-size: 2vw;
+  }
+  
+  .text-app hr {
+    border-top: solid 2px;
+    border-radius: 5px;
+    width: 27vw;
+    margin: 0;
+  }
+  
+  .text-app h3 {
+    font-size: 2vw;
+  }
+  
+  .text-app p {
+    font-size: 1.8vw;
+  }
+  .icon-white-spotify {
+    width: 10vw;
+    height: auto;
+  }
+  
+  .img-app-spotify {
+    width: 18vw;
+    height: auto;
+  }
+  
